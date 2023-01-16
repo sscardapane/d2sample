@@ -20,7 +20,7 @@ sys.path.append('./d2sample/')
 
 ## Implemented algorithms
 
-### **$k$-subset sampling** (see [notebook](./notebooks/1_SubsetSampling.ipynb)):
+### **$k$-subset sampling** (see [notebook](notebooks/1_SubsetSampling.ipynb)):
 
 1. Gumbel-Softmax with continuous top-$k$ relaxation ([Xie \& Ermon, 2019](https://arxiv.org/abs/1901.10517)). For $k=1$ this reduces to the standard Gumbel-Softmax reparameterization available inside PyTorch.
 2. Top-k selection with I-MLE ([Niepert, Minervini, \& Franceschi, 2021](https://arxiv.org/abs/2106.01798)).
